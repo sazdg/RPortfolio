@@ -23,7 +23,7 @@ function App() {
 
       <Switch>
           <Route exact path="/RPortfolio">
-            <Linocut />
+            <Home />
           </Route>
 
           <Route exact path="/">
