@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Images from "./Images.js";
 
 class Label extends Component {
 
 
     render() {
         return (
-            <div className="Image">
-                <Images />
+            <div className="Label">
                 <p>{this.props.label}</p>
             </div>
 

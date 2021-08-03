@@ -22,19 +22,23 @@ function App() {
         
 
       <Switch>
-          <Route path="/Home">
+          <Route exact path="/RPortfolio">
+            <Linocut />
+          </Route>
+
+          <Route exact path="/">
             <Home />
           </Route>
 
-        <Route path="/Linocut">
+        <Route exact path="/Linocut">
           <Linocut />
         </Route>
 
-        <Route path="/Illustrations">
+        <Route exact path="/Illustrations">
           <Illustrations />
         </Route>
 
-          <Route path="/Contactform">
+          <Route exact path="/Contactform">
             <Contactform />
           </Route>
 

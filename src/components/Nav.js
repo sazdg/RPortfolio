@@ -17,7 +17,7 @@ class Nav extends Component {
                 <span>
                     <ul className="noToggle">
                         <li className="nav-link">
-                            <Link to="/Home">Home</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li className="nav-link">
                             <Link to="/Linocut">Linocut</Link>

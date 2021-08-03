@@ -18,9 +18,11 @@ class Footer extends Component {
                 </div>
                 
                 <p>
-                    <Link to="/Contactform" 
-                    style={{color: '#fff'}}>Contact Form</Link>
+                    <Link to="/Contactform"
+                    style={{color: '#fff', textDecoration: 'underline'}}>
+                    Contact Form</Link>
                 </p>
+                <a href="https://stackoverflow.com/questions/39910041/how-to-route-without-reloading-the-whole-page" style={{ color: 'red', textDecoration: 'underline'}}>LINK PER IL REFRESH DELLE PAGINE</a>
                 <p>Italy</p>
                 <p>© 2021 Sara De Grandis</p>
 

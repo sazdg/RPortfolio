@@ -14,10 +14,10 @@ function Home() {
                 <Title label={'HOME'} />
             </article>
             <article className="ImgHome">
-                <Link className="Img" to="/Linocut" >
+                <Link className="ImgHome" to="/Linocut" >
                     <Images name={snake} />
                 </Link>
-                <Link className="Img" to="/Illustrations" >
+                <Link className="ImgHome" to="/Illustrations" >
                     <Images name={theoffice}  />
                 </Link>
             </article>

@@ -115,30 +115,31 @@ ul.noToggle {
   font-family: "BebasneueRegular";
 }
 
+/*IMAGES----------------------------------------*/
 img {
-  display: flex;
   max-width: 100%;
 }
-
+.DivImages { /*div delle immagini linocut e illustrations*/
+  display: flex;
+}
 article.Img {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-.Img {
-  display: flex;
-}
 .ImgHome{
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
-  padding-top: 0px;
+  border-style: none;
 }
-a.Image {
-  display: flex;
-  width: 50%;
+div.Label {
+  width: 70%;
+  padding: 0px 2rem;
+  text-align: right;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
 }
-
+/*----------IMAGES-------------------------------------*/
 
 .Contact {
   background-color: #c0d1f7;
@@ -206,7 +207,7 @@ img.photo { /*social network footer*/
 
 
 
-@media only screen and (max-width: 400px){/*IPHONE 5*/
+@media only screen and (max-width: 480px){/*IPHONE 5*/
   
   .Logo {
     padding-left: 1.5rem;
@@ -226,7 +227,7 @@ img.photo { /*social network footer*/
 
 } 
 
-@media only screen and (min-width: 800px) and (max-width: 1024px){/*IPAD*/
+@media only screen and (min-width: 768px) and (max-width: 1280px){/*IPAD*/
   body {
     font-size: x-large;
   }

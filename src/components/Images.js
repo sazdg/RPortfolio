@@ -11,7 +11,7 @@ class Images extends Component {
 
     render() {
         return (
-            <div className="Image">
+            <div className="DivImages">
                 <img src={this.props.name} width={this.props.size} alt={this.props.name} />
             </div>
 

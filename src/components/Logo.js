@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from "./Nav.js";
+import { Link } from 'react-router-dom';
 
 class Logo extends Component {
     constructor(props){
@@ -26,9 +27,9 @@ class Logo extends Component {
     render(){
         return(
             <div className="App-logo">
-                <a href="index.js">
+                <Link to="/">
                     <span className="Logo">SAZDG {this.state.date.toLocaleTimeString()}</span>
-                </a>
+                </Link>
                 <Nav />
             </div>
             
