@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+/*dov'è APP HEADER???
+.App-header { 
+  background-color: #fff;
+  top:0;
+  height: 20%;
+  margin: 0;
+}*/
+
+.Notes {
+  padding: 5rem;
+  margin: 4rem;
+  border-radius: 30px;
+  border: 1.5px solid #000;
+  background-color: #b8ecba;
+}
+.Head {
+  padding: 2em 0.2em;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "BebasneueRegular";
+}
+
+.App-logo {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 4rem;
+  font-weight: bold;
+  font-size: 2em;
+  justify-content: left;
+ }
+.barraNav {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row-reverse;
+  padding: 5px 5px;
+  padding-right: 25px;
+  margin: auto
+}
+
+.nav-img {
+  width: 10%;
+  padding: 20px;
+}
+
+.nav-link {
+  display: inline-flex;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link, input, textarea, input[type="submit"]{
+  color: #000;
+  cursor: cell;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0px;
+  padding: 0;
+  display: inline;
+  justify-content: flex-end;
+}
+
+ul.toggle {
+  display: inline;
+  padding: 10px;
+  line-height: 25px;
+  font-size: 20px;
+  color: #000;
+}
+
+ul.noToggle {
+  color: #000;
+  justify-content: flex-end;
+}
+.Titolo {
+  background-color: #fff;
+  border-top: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 30px 20px;
+  padding-left: 100px;
+  text-align: left;
+  font-family: "BebasneueRegular";
+}
+
+.CTA {
+  background-color: #fff;
+  border-top: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "BebasneueRegular";
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+article.Img {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Img {
+  display: flex;
+}
+.ImgHome{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 0px;
+}
+a.Image {
+  display: flex;
+  width: 50%;
+}
+
+
+.Contact {
+  background-color: #c0d1f7;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: left;
+  margin: 0px auto;
+  padding: 4rem 15rem;
+}
+
+input, textarea {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 20px;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+textarea {
+  padding: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  
+}
+
+input[type="submit"] {
+  font-size: large;
+  margin-top: 1rem;
+  display: block;
+  height: 3rem;
+  width: 9rem;
+  padding: 0.5rem;
+  background-color: #000000;
+  color: #fff;
+  -webkit-appearance: none;/*safari css none*/
+}
+
+img.photo { /*social network footer*/
+  width: 2rem;
+  padding: 10px;
+  justify-content: space-between;
+  display: inline-flex;
+}
+
+.App-footer {
+  background-color: #000000;
+  position: relative;
+  bottom: 0;
+  padding: 30px 6rem;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 400px){/*IPHONE 5*/
+  
+  .Logo {
+    padding-left: 1.5rem;
+  }
+  .Titolo {
+    padding: 20px;
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  .ImgHome {
+    flex-wrap: wrap;
+  }
+
+
+} 
+
+@media only screen and (min-width: 800px) and (max-width: 1024px){/*IPAD*/
+  body {
+    font-size: x-large;
+  }
+
+
+  form {
+    padding: 3rem 10rem;
+  }
+
+  input, textarea {
+    padding: 1rem;
+  }
+
+  
+  .ImgHome {
+    flex-wrap: wrap;
+  }
+
+} 
+
