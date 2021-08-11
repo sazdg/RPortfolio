@@ -7,7 +7,8 @@ class Notes extends Component {
         return (
             <div className="Notes">
                 <span>TO DO LIST:<br/>
-                - cambiare colori al form, magari qualcosa tipo SexOnTheBeach, o giallo magari<br/>
+                - tasto per switch color theme<br/>
+                - cambiare colori al form, magari qualcosa tipo pink, o giallo magari<br/>
                 -le misure delle illustrazioni da fare quadrate, forse tutte su illusrtato <br/>
                 - la pagina form non fa refresh
                 </span>

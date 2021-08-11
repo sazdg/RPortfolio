@@ -4,7 +4,7 @@ import Button from "./Button.js";
 
 class Form extends Component {
 
-    render() {
+    render() { 
         return (
             <div className="Contact">
                 <form action="get">

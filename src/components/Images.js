@@ -4,7 +4,7 @@ import '../App.css';
 class Images extends Component {
     constructor(props){
         super(props);
-        this.state = { 
+        this.state = {
             img:this.props.name
         }
     }
@@ -12,7 +12,7 @@ class Images extends Component {
     render() {
         return (
             <div className="DivImages">
-                <img src={this.props.name} width={this.props.size} alt={this.props.name} />
+                <img src={this.props.name} alt={this.props.alt} />
             </div>
 
         );

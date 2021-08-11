@@ -3,7 +3,7 @@ import React from 'react';
 import Images from './components/Images.js';
 import Title from './components/Title'
 import snake from './assets/images/snake.jpg';
-import theoffice from './assets/images/p2/theOffice1.png';
+import theoffice from './assets/images/p2/homeOffice.png';
 import { Link } from 'react-router-dom';
 
 function Home() {

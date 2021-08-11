@@ -28,7 +28,9 @@ class Logo extends Component {
         return(
             <div className="App-logo">
                 <Link to="/">
-                    <span className="Logo">SAZDG {this.state.date.toLocaleTimeString()}</span>
+                    <span className="Logo" >
+                        SAZDG {this.state.date.toLocaleTimeString()}
+                    </span>
                 </Link>
                 <Nav />
             </div>

@@ -9,12 +9,30 @@
   margin: 0;
 }*/
 
+::selection {
+  /*background-color: #fffc61;*/
+  background-color: #ee82ee;
+  color: #000;
+}
+
+button {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  cursor: cell;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px;
+}
+
 .Notes {
   padding: 5rem;
   margin: 4rem;
   border-radius: 30px;
   border: 1.5px solid #000;
-  background-color: #b8ecba;
+  background-color: #ee82ee;
 }
 .Head {
   padding: 2em 0.2em;
@@ -121,6 +139,7 @@ img {
 }
 .DivImages { /*div delle immagini linocut e illustrations*/
   display: flex;
+  border-left: 1px solid #000;
 }
 article.Img {
   display: flex;
@@ -137,8 +156,60 @@ div.Label {
   padding: 0px 2rem;
   text-align: right;
   border-top: 1px solid #000;
-  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
+
+.IMG1 {
+    margin-left: 15%;
+    width: 30%;
+}
+
+.IMG2 {
+    margin-left: 55%;
+    width: 30%;
+}
+
+.IMG3 {
+    margin-left: 20%;
+    width: 30%;
+}
+
+.IMG4 {
+    margin-left: 65%;
+    width: 30%;
+}
+.Ill  {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+.Ill1 {
+  display: flex;
+  align-self: flex-end;
+  max-width: 50%;
+}
+.Ill2 {
+  display: flex;
+  align-self: flex-start;
+  max-width: 50%;
+}
+.Ill3 {
+  display: flex;
+  align-self: flex-end;
+  max-width: 50%;
+}
+.Ill4 {
+  display: flex;
+  align-self: flex-start;
+  max-width: 50%;
+}
+.Ill5 {
+  display: flex;
+  align-self: flex-end;
+  max-width: 50%;
+}
+
+
 /*----------IMAGES-------------------------------------*/
 
 .Contact {
@@ -198,7 +269,7 @@ img.photo { /*social network footer*/
 
 .App-footer {
   background-color: #000000;
-  position: relative;
+  /*position: relative;*/
   bottom: 0;
   padding: 30px 6rem;
   color: #fff;
@@ -223,6 +294,30 @@ img.photo { /*social network footer*/
   .ImgHome {
     flex-wrap: wrap;
   }
+
+  .IMG1 {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.IMG2 {
+    margin-left: 45%;
+    width: 50%;
+}
+
+.IMG3 {
+    margin-left: 20%;
+    width: 50%;
+}
+
+.IMG4 {
+    margin-left: 50%;
+    width: 50%;
+}
+.Ill1, .Ill2, .Ill3, .Ill4, .Ill5  {
+  max-width: 80%;
+  margin-bottom: 55%;
+}
 
 
 } 
