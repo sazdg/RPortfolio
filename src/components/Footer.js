@@ -11,6 +11,15 @@ class Footer extends Component {
         window.scrollTo(0, 0);
     }
 
+    scrollTop2 = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'auto'
+        });
+    };
+
+    
     render() {
         return (
             <div className="App-footer">
@@ -22,7 +31,8 @@ class Footer extends Component {
                 
                 <p>
                     <Link to="/Contactform"
-                    style={{color: '#fff', textDecoration: 'underline'}}>
+                    style={{color: '#fff', textDecoration: 'underline'}}
+                    onClick={this.scrollTop2}>
                     Contact Form</Link>
                 </p>
 
