@@ -26,7 +26,7 @@ class Footer extends Component {
                 <div className="Social">
                     <a href="https://www.instagram.com/"><img src={instagram} alt="Instagram" size={"30"} className="photo" /></a>
                     <a href="https://www.pinterest.it/"><img src={pinterest} alt="Facebook" size={"30"} className="photo" /></a>
-                    <a href="https://github.com/sazdg"><img src={Github} alt="GitHub" size={"30"} className="photo" /></a>
+                    <a href="https://github.com/"><img src={Github} alt="GitHub" size={"30"} className="photo" /></a>
                 </div>
                 
                 <p>
@@ -37,7 +37,7 @@ class Footer extends Component {
                 </p>
 
                 <p>Italy</p>
-                <p>© 2021 Sara De Grandis</p>
+                <p>© 2021 SDG</p>
 
             </div>
 
